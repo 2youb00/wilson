@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div  class="main-title"><h1>the best tik tok story</h1></div>
+        <h4  onclick="seeone(this)"  id="all"><u>see this trailer</u></h4>
+        <div class="cells">
+
+        <div class="cell">
+            <img src="imgs/wilson.jpg" alt="wilson">
+      
+        <div class="cell-details">
+            <div class="cell-titl"><h2>wilson</h2></div>
+            <div class="cell-details-select">
+            <input type="radio" name="move" id="wilson">
+            <label for="wilson">select as best store</label></div>
+        </div>
+        <h4  onclick="seeone(this)"  id="wilson"><u>see this trailer</u></h4>
+        </div>
+        <div class="cell">
+            <img src="imgs/bill.jpg" alt="bill">
+        <div class="cell-details">
+            <div class="cell-titl"><h2>bill</h2></div>
+            <div class="cell-details-select">
+            <input type="radio" name="move"  id="bill">
+            <label for="bill">select as best store</label></div>
+        </div>
+        <h4 onclick="seeone(this)" id="bill"><u>see this trailer</u></h4>
+        </div>
+        <div class="cell">
+            <img src="imgs/el gatto.jpg" alt="el gatto">
+        <div class="cell-details">
+            <div class="cell-titl"><h2>el gatto</h2></div>
+            <div class="cell-details-select">
+            <input type="radio" name="move"  id="el-gatto">
+            <label for="el-gatto">select as best store</label></div>
+        </div>
+        <h4 onclick="seeone(this)" id="el-gatto"><u>see this trailer</u></h4>
+        </div>
+        <div class="cell">
+            <img src="imgs/adam.jpg" alt="adam">
+        <div class="cell-details">
+            <div class="cell-titl"><h2>adam</h2></div>
+            <div class="cell-details-select">
+            <input type="radio" name="move"  id="adam">
+            <label for="adam">select as best store</label></div>
+        </div>
+        <h4  onclick="seeone(this)" id="adam"><u>see this trailer</u></h4>
+        </div>
+    </div>
+</main>
+    <section class="solo-trailer displaynone">
+        <video src="videos/wilson trailer.mp4" class="displaynone" id="wilson"  controls poster="imgs/wilson.jpg" ></video>
+        <video src="videos/bill trailer.mp4" class="displaynone" id="bill" controls  poster="imgs/bill.jpg"></video>
+        <video src="videos/el gatto trailer.mp4" class="displaynone" id="el-gatto" controls poster="imgs/el gatto.jpg"></video>
+        <video src="videos/adam trailer.mp4" class="displaynone" id="adam"  controls poster="imgs/adam.jpg"></video>
+        <video src="videos/all trailer.mp4" class="displaynone" id="all"  controls autoplay></video>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
